@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>FIIRO-form</title>
+</head>
+<body>
+    <header>
+        <img src="img/FIIRO-Logo-1.jpg"/>
+    </header>
+    <form>
+        <!-- This for the gender part -->
+        <p>You are a...</p>
+        <input type="radio" id="male" name="gender" />
+        <label for="male">Male</label></br>
+        <input type="radio" id="female" name="gender" />
+        <label for="female">Female</label>
+        <!-- this is also various aspect of the training -->
+        <p>Who is interested in...</p>
+        <input type="checkbox" id="web" />
+        <label for="web">Quantum computing</label><br/>
+        <input type="checkbox" id="photoshop" />
+        <label for="photoshop">Corrosion Prevention</label><br/>
+        <input type="checkbox" id="madona" />
+        <label for="madona">Passivation Training</label><br/>
+        <fieldset>
+            <legend>Contact Info</legend>
+            <input type="email" placeholder="Email" required />
+            <span class="tick"></span>
+            <input type="telephone" placeholder="Phone number" required />
+            <span class="tick"></span>
+        </fieldset>
+        <p>how would you like to contact us...</p>
+        <select>
+            <option>Email</option>
+            <option>By telephone</option>
+            <option>Text massage</option>
+        </select>
+        <input type="submit" value="Become a member">
+    </form>
+    <div id="footer">
+        &copyright by Rankshow 2020
+    </div>
+</body>
+</html>
